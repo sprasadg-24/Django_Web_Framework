@@ -1,0 +1,55 @@
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore logs
+*.log
+
+# Ignore compiled files
+*.so
+
+# Ignore environment variable files
+.env
+
+# Ignore database files
+*.sqlite3
+
+# Ignore static files
+/staticfiles/
+media/
+
+# Ignore Django migration files
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore any other files/directories
+*.swp
+*.swo
+*~
+
+# Ignore local Django settings
+local_settings.py
